@@ -1,0 +1,27 @@
+Comandos Django:
+
+Criar base do projeto:
+
+pienv --venv
+
+	cria um ambiente virtual no diretório atual, com arquivos executáveis
+        em Python e uma cópia da biblioteca pip
+
+	Gerar um caminho para configurar do VS code
+
+python -m pipenv shell
+
+	Ativa o ambiente virtual
+
+python manage.py runserver
+
+	Roda o servidor
+
+
+Banco de Dados:
+
+python manage.py migrate
+
+	Configura as tabelas do banco de dados
+
+python manage.py makemigrations polls
