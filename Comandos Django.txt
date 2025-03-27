@@ -2,6 +2,10 @@ Comandos Django:
 
 Criar base do projeto:
 
+python3 -m pipenv install:
+
+	Instalar o pipenv no projeto
+
 pienv --venv
 
 	cria um ambiente virtual no diretório atual, com arquivos executáveis
